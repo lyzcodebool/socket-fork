@@ -9,7 +9,7 @@
 #include<unistd.h>
 #include<sys/epoll.h>
 #include<fcntl.h>
-//我的第一个epoll程序
+//我的第一个epoll程序1
 //注释掉的代码和现在的效果一样 ，如果没有read()程序无限死循环，因为缓冲区的数据没有读出来
 //只要缓冲区有数据，就会触发事件，这是LT模式，epoll的ET模式解决了这个问题 或者加read()。
 //可以通过修改缓冲区大小进行测试，注意输入的字符后面有换行符'\n'
